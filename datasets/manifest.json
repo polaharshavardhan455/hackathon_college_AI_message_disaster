@@ -1,0 +1,36 @@
+{
+  "dataset_name": "AI Emergency Resource Coordinator",
+  "version": "3.0",
+  "city": "Chennai, Tamil Nadu, India",
+  "generated_at": "2026-10-07T17:04:13.372091",
+  "stages": {
+    "stage_1": "Initial emergency reports",
+    "stage_2": "Corroboration, escalation and updates",
+    "stage_3": "Resolution and final-state updates"
+  },
+  "three_core_stories": [
+    "Velachery Flood Medical Emergency",
+    "Tambaram Transformer Fire",
+    "Medavakkam Flood Rescue"
+  ],
+  "files_per_stage": {
+    "audio": 7,
+    "whatsapp_json": 1,
+    "twitter_csv": 1,
+    "sms_csv": 1,
+    "total": 10
+  },
+  "rows_per_text_file": 50,
+  "total_stream_files": 30,
+  "images": 0,
+  "organizer_only_folder": false,
+  "notes": [
+    "This dataset is synthetic.",
+    "Public streams intentionally do not contain incident_id fields.",
+    "ground_truth.json is organizer data and should be removed before participant release.",
+    "Multiple reports may describe the same incident.",
+    "Later stages may update people count, urgency or status.",
+    "Noise and rumor messages intentionally appear in every stage.",
+    "Audio is predominantly Telugu / Telugu-English."
+  ]
+}

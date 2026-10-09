@@ -1,0 +1,969 @@
+{
+ "meta": {
+  "city": "Chennai",
+  "note": "Coordinates are APPROXIMATE (neighbourhood level, may be off by 1-2 km). Verify against a map before real use. Add places from your dataset: see 'python locations.py --suggest'.",
+  "fields": "id, name, type, lat, lon, area (id of the wider area), aliases (other spellings/names), context (nearby names that point to this place when only a generic word like 'station' is given)"
+ },
+ "landmarks": [
+  {
+   "id": "velachery",
+   "name": "Velachery",
+   "type": "area",
+   "lat": 12.9815,
+   "lon": 80.218,
+   "area": "velachery",
+   "aliases": [
+    "velachery",
+    "velacheri",
+    "velachchery",
+    "வேளச்சேரி"
+   ],
+   "context": []
+  },
+  {
+   "id": "tambaram",
+   "name": "Tambaram",
+   "type": "area",
+   "lat": 12.9249,
+   "lon": 80.1,
+   "area": "tambaram",
+   "aliases": [
+    "tambaram",
+    "tambram",
+    "thambaram",
+    "தாம்பரம்"
+   ],
+   "context": []
+  },
+  {
+   "id": "adyar",
+   "name": "Adyar",
+   "type": "area",
+   "lat": 13.0063,
+   "lon": 80.2574,
+   "area": "adyar",
+   "aliases": [
+    "adyar",
+    "adayar",
+    "அடையாறு"
+   ],
+   "context": []
+  },
+  {
+   "id": "mylapore",
+   "name": "Mylapore",
+   "type": "area",
+   "lat": 13.0368,
+   "lon": 80.2676,
+   "area": "mylapore",
+   "aliases": [
+    "mylapore",
+    "mailapore",
+    "mylai",
+    "மயிலாப்பூர்"
+   ],
+   "context": []
+  },
+  {
+   "id": "t_nagar",
+   "name": "T. Nagar",
+   "type": "area",
+   "lat": 13.0418,
+   "lon": 80.2341,
+   "area": "t_nagar",
+   "aliases": [
+    "t nagar",
+    "tnagar",
+    "thyagaraya nagar",
+    "thiyagaraya nagar",
+    "தி நகர்",
+    "தியாகராய நகர்"
+   ],
+   "context": []
+  },
+  {
+   "id": "pallikaranai",
+   "name": "Pallikaranai",
+   "type": "area",
+   "lat": 12.9352,
+   "lon": 80.2141,
+   "area": "pallikaranai",
+   "aliases": [
+    "pallikaranai",
+    "pallikarani",
+    "பள்ளிக்கரணை"
+   ],
+   "context": []
+  },
+  {
+   "id": "saidapet",
+   "name": "Saidapet",
+   "type": "area",
+   "lat": 13.0213,
+   "lon": 80.2231,
+   "area": "saidapet",
+   "aliases": [
+    "saidapet",
+    "சைதாப்பேட்டை"
+   ],
+   "context": []
+  },
+  {
+   "id": "guindy",
+   "name": "Guindy",
+   "type": "area",
+   "lat": 13.0067,
+   "lon": 80.2206,
+   "area": "guindy",
+   "aliases": [
+    "guindy",
+    "kindi",
+    "கிண்டி"
+   ],
+   "context": []
+  },
+  {
+   "id": "kodambakkam",
+   "name": "Kodambakkam",
+   "type": "area",
+   "lat": 13.0521,
+   "lon": 80.2255,
+   "area": "kodambakkam",
+   "aliases": [
+    "kodambakkam",
+    "kodambakam",
+    "கோடம்பாக்கம்"
+   ],
+   "context": []
+  },
+  {
+   "id": "anna_nagar",
+   "name": "Anna Nagar",
+   "type": "area",
+   "lat": 13.085,
+   "lon": 80.2101,
+   "area": "anna_nagar",
+   "aliases": [
+    "anna nagar",
+    "அண்ணா நகர்"
+   ],
+   "context": []
+  },
+  {
+   "id": "egmore",
+   "name": "Egmore",
+   "type": "area",
+   "lat": 13.0732,
+   "lon": 80.2609,
+   "area": "egmore",
+   "aliases": [
+    "egmore",
+    "எழும்பூர்"
+   ],
+   "context": []
+  },
+  {
+   "id": "perambur",
+   "name": "Perambur",
+   "type": "area",
+   "lat": 13.1167,
+   "lon": 80.2333,
+   "area": "perambur",
+   "aliases": [
+    "perambur",
+    "பெரம்பூர்"
+   ],
+   "context": []
+  },
+  {
+   "id": "washermanpet",
+   "name": "Washermanpet",
+   "type": "area",
+   "lat": 13.1143,
+   "lon": 80.287,
+   "area": "washermanpet",
+   "aliases": [
+    "washermanpet",
+    "old washermanpet"
+   ],
+   "context": []
+  },
+  {
+   "id": "royapuram",
+   "name": "Royapuram",
+   "type": "area",
+   "lat": 13.1086,
+   "lon": 80.2955,
+   "area": "royapuram",
+   "aliases": [
+    "royapuram"
+   ],
+   "context": []
+  },
+  {
+   "id": "tondiarpet",
+   "name": "Tondiarpet",
+   "type": "area",
+   "lat": 13.129,
+   "lon": 80.289,
+   "area": "tondiarpet",
+   "aliases": [
+    "tondiarpet",
+    "thondiarpet"
+   ],
+   "context": []
+  },
+  {
+   "id": "tiruvottiyur",
+   "name": "Tiruvottiyur",
+   "type": "area",
+   "lat": 13.159,
+   "lon": 80.3,
+   "area": "tiruvottiyur",
+   "aliases": [
+    "tiruvottiyur",
+    "thiruvottiyur",
+    "திருவொற்றியூர்"
+   ],
+   "context": []
+  },
+  {
+   "id": "manali",
+   "name": "Manali",
+   "type": "area",
+   "lat": 13.167,
+   "lon": 80.265,
+   "area": "manali",
+   "aliases": [
+    "manali",
+    "மணலி"
+   ],
+   "context": []
+  },
+  {
+   "id": "ennore",
+   "name": "Ennore",
+   "type": "area",
+   "lat": 13.214,
+   "lon": 80.32,
+   "area": "ennore",
+   "aliases": [
+    "ennore"
+   ],
+   "context": []
+  },
+  {
+   "id": "vyasarpadi",
+   "name": "Vyasarpadi",
+   "type": "area",
+   "lat": 13.117,
+   "lon": 80.257,
+   "area": "vyasarpadi",
+   "aliases": [
+    "vyasarpadi",
+    "வியாசர்பாடி"
+   ],
+   "context": []
+  },
+  {
+   "id": "madipakkam",
+   "name": "Madipakkam",
+   "type": "area",
+   "lat": 12.964,
+   "lon": 80.198,
+   "area": "madipakkam",
+   "aliases": [
+    "madipakkam",
+    "மடிப்பாக்கம்"
+   ],
+   "context": []
+  },
+  {
+   "id": "perungudi",
+   "name": "Perungudi",
+   "type": "area",
+   "lat": 12.965,
+   "lon": 80.2461,
+   "area": "perungudi",
+   "aliases": [
+    "perungudi",
+    "பெருங்குடி"
+   ],
+   "context": []
+  },
+  {
+   "id": "thoraipakkam",
+   "name": "Thoraipakkam",
+   "type": "area",
+   "lat": 12.941,
+   "lon": 80.236,
+   "area": "thoraipakkam",
+   "aliases": [
+    "thoraipakkam"
+   ],
+   "context": []
+  },
+  {
+   "id": "sholinganallur",
+   "name": "Sholinganallur",
+   "type": "area",
+   "lat": 12.901,
+   "lon": 80.2279,
+   "area": "sholinganallur",
+   "aliases": [
+    "sholinganallur",
+    "சோழிங்கநல்லூர்"
+   ],
+   "context": []
+  },
+  {
+   "id": "medavakkam",
+   "name": "Medavakkam",
+   "type": "area",
+   "lat": 12.919,
+   "lon": 80.192,
+   "area": "medavakkam",
+   "aliases": [
+    "medavakkam"
+   ],
+   "context": []
+  },
+  {
+   "id": "chromepet",
+   "name": "Chromepet",
+   "type": "area",
+   "lat": 12.9516,
+   "lon": 80.1462,
+   "area": "chromepet",
+   "aliases": [
+    "chromepet",
+    "குரோம்பேட்டை"
+   ],
+   "context": []
+  },
+  {
+   "id": "pallavaram",
+   "name": "Pallavaram",
+   "type": "area",
+   "lat": 12.9675,
+   "lon": 80.1491,
+   "area": "pallavaram",
+   "aliases": [
+    "pallavaram",
+    "பல்லாவரம்"
+   ],
+   "context": []
+  },
+  {
+   "id": "porur",
+   "name": "Porur",
+   "type": "area",
+   "lat": 13.0382,
+   "lon": 80.1565,
+   "area": "porur",
+   "aliases": [
+    "porur",
+    "போரூர்"
+   ],
+   "context": []
+  },
+  {
+   "id": "koyambedu",
+   "name": "Koyambedu",
+   "type": "area",
+   "lat": 13.0694,
+   "lon": 80.1948,
+   "area": "koyambedu",
+   "aliases": [
+    "koyambedu",
+    "கோயம்பேடு"
+   ],
+   "context": []
+  },
+  {
+   "id": "vadapalani",
+   "name": "Vadapalani",
+   "type": "area",
+   "lat": 13.05,
+   "lon": 80.2121,
+   "area": "vadapalani",
+   "aliases": [
+    "vadapalani"
+   ],
+   "context": []
+  },
+  {
+   "id": "ashok_nagar",
+   "name": "Ashok Nagar",
+   "type": "area",
+   "lat": 13.0373,
+   "lon": 80.2123,
+   "area": "ashok_nagar",
+   "aliases": [
+    "ashok nagar"
+   ],
+   "context": []
+  },
+  {
+   "id": "kk_nagar",
+   "name": "K.K. Nagar",
+   "type": "area",
+   "lat": 13.0415,
+   "lon": 80.199,
+   "area": "kk_nagar",
+   "aliases": [
+    "k k nagar",
+    "kk nagar"
+   ],
+   "context": []
+  },
+  {
+   "id": "besant_nagar",
+   "name": "Besant Nagar",
+   "type": "area",
+   "lat": 13.0002,
+   "lon": 80.2668,
+   "area": "besant_nagar",
+   "aliases": [
+    "besant nagar",
+    "besantnagar",
+    "பெசன்ட் நகர்"
+   ],
+   "context": []
+  },
+  {
+   "id": "thiruvanmiyur",
+   "name": "Thiruvanmiyur",
+   "type": "area",
+   "lat": 12.983,
+   "lon": 80.2594,
+   "area": "thiruvanmiyur",
+   "aliases": [
+    "thiruvanmiyur",
+    "tiruvanmiyur",
+    "திருவான்மியூர்"
+   ],
+   "context": []
+  },
+  {
+   "id": "alandur",
+   "name": "Alandur",
+   "type": "area",
+   "lat": 13.0035,
+   "lon": 80.2012,
+   "area": "alandur",
+   "aliases": [
+    "alandur",
+    "ஆலந்தூர்"
+   ],
+   "context": []
+  },
+  {
+   "id": "st_thomas_mount",
+   "name": "St. Thomas Mount",
+   "type": "area",
+   "lat": 12.9949,
+   "lon": 80.198,
+   "area": "st_thomas_mount",
+   "aliases": [
+    "st thomas mount",
+    "saint thomas mount",
+    "parangimalai"
+   ],
+   "context": []
+  },
+  {
+   "id": "nanganallur",
+   "name": "Nanganallur",
+   "type": "area",
+   "lat": 12.981,
+   "lon": 80.192,
+   "area": "nanganallur",
+   "aliases": [
+    "nanganallur"
+   ],
+   "context": []
+  },
+  {
+   "id": "kotturpuram",
+   "name": "Kotturpuram",
+   "type": "area",
+   "lat": 13.018,
+   "lon": 80.242,
+   "area": "kotturpuram",
+   "aliases": [
+    "kotturpuram"
+   ],
+   "context": []
+  },
+  {
+   "id": "west_mambalam",
+   "name": "West Mambalam",
+   "type": "area",
+   "lat": 13.038,
+   "lon": 80.22,
+   "area": "west_mambalam",
+   "aliases": [
+    "west mambalam",
+    "mambalam"
+   ],
+   "context": []
+  },
+  {
+   "id": "triplicane",
+   "name": "Triplicane",
+   "type": "area",
+   "lat": 13.0569,
+   "lon": 80.276,
+   "area": "triplicane",
+   "aliases": [
+    "triplicane",
+    "thiruvallikeni"
+   ],
+   "context": []
+  },
+  {
+   "id": "purasawalkam",
+   "name": "Purasawalkam",
+   "type": "area",
+   "lat": 13.0847,
+   "lon": 80.2434,
+   "area": "purasawalkam",
+   "aliases": [
+    "purasawalkam",
+    "purasaiwakkam"
+   ],
+   "context": []
+  },
+  {
+   "id": "kilpauk",
+   "name": "Kilpauk",
+   "type": "area",
+   "lat": 13.0836,
+   "lon": 80.239,
+   "area": "kilpauk",
+   "aliases": [
+    "kilpauk"
+   ],
+   "context": []
+  },
+  {
+   "id": "ambattur",
+   "name": "Ambattur",
+   "type": "area",
+   "lat": 13.1143,
+   "lon": 80.1548,
+   "area": "ambattur",
+   "aliases": [
+    "ambattur",
+    "அம்பத்தூர்"
+   ],
+   "context": []
+  },
+  {
+   "id": "avadi",
+   "name": "Avadi",
+   "type": "area",
+   "lat": 13.1067,
+   "lon": 80.097,
+   "area": "avadi",
+   "aliases": [
+    "avadi",
+    "ஆவடி"
+   ],
+   "context": []
+  },
+  {
+   "id": "poonamallee",
+   "name": "Poonamallee",
+   "type": "area",
+   "lat": 13.0473,
+   "lon": 80.0945,
+   "area": "poonamallee",
+   "aliases": [
+    "poonamallee",
+    "poonamalle",
+    "பூந்தமல்லி"
+   ],
+   "context": []
+  },
+  {
+   "id": "mudichur",
+   "name": "Mudichur",
+   "type": "area",
+   "lat": 12.907,
+   "lon": 80.068,
+   "area": "mudichur",
+   "aliases": [
+    "mudichur"
+   ],
+   "context": []
+  },
+  {
+   "id": "meenambakkam",
+   "name": "Meenambakkam",
+   "type": "area",
+   "lat": 12.987,
+   "lon": 80.176,
+   "area": "meenambakkam",
+   "aliases": [
+    "meenambakkam",
+    "மீனம்பாக்கம்"
+   ],
+   "context": []
+  },
+  {
+   "id": "vijayanagar_velachery",
+   "name": "Vijayanagar, Velachery",
+   "type": "locality",
+   "lat": 12.977,
+   "lon": 80.219,
+   "area": "velachery",
+   "aliases": [
+    "vijayanagar",
+    "vijaya nagar"
+   ],
+   "context": []
+  },
+  {
+   "id": "velachery_mrts",
+   "name": "Velachery MRTS Station",
+   "type": "mrts",
+   "lat": 12.9826,
+   "lon": 80.2186,
+   "area": "velachery",
+   "aliases": [
+    "velachery mrts",
+    "velachery mrts station",
+    "velachery station",
+    "velachery railway station"
+   ],
+   "context": [
+    "vijayanagar",
+    "vijaya nagar"
+   ]
+  },
+  {
+   "id": "taramani_mrts",
+   "name": "Taramani MRTS Station",
+   "type": "mrts",
+   "lat": 12.986,
+   "lon": 80.2415,
+   "area": "perungudi",
+   "aliases": [
+    "taramani mrts",
+    "taramani station",
+    "taramani mrts station"
+   ],
+   "context": [
+    "taramani"
+   ]
+  },
+  {
+   "id": "indira_nagar_mrts",
+   "name": "Indira Nagar MRTS Station",
+   "type": "mrts",
+   "lat": 13.0073,
+   "lon": 80.2525,
+   "area": "adyar",
+   "aliases": [
+    "indira nagar mrts",
+    "indira nagar station"
+   ],
+   "context": [
+    "indira nagar"
+   ]
+  },
+  {
+   "id": "thiruvanmiyur_mrts",
+   "name": "Thiruvanmiyur MRTS Station",
+   "type": "mrts",
+   "lat": 12.983,
+   "lon": 80.2594,
+   "area": "thiruvanmiyur",
+   "aliases": [
+    "thiruvanmiyur mrts",
+    "thiruvanmiyur station"
+   ],
+   "context": []
+  },
+  {
+   "id": "kotturpuram_mrts",
+   "name": "Kotturpuram MRTS Station",
+   "type": "mrts",
+   "lat": 13.015,
+   "lon": 80.242,
+   "area": "kotturpuram",
+   "aliases": [
+    "kotturpuram mrts",
+    "kotturpuram station"
+   ],
+   "context": []
+  },
+  {
+   "id": "thirumayilai_mrts",
+   "name": "Thirumayilai (Mylapore) MRTS Station",
+   "type": "mrts",
+   "lat": 13.0338,
+   "lon": 80.2688,
+   "area": "mylapore",
+   "aliases": [
+    "thirumayilai mrts",
+    "thirumayilai station",
+    "mylapore mrts",
+    "mylapore station"
+   ],
+   "context": []
+  },
+  {
+   "id": "lighthouse_mrts",
+   "name": "Lighthouse MRTS Station",
+   "type": "mrts",
+   "lat": 13.0397,
+   "lon": 80.2766,
+   "area": null,
+   "aliases": [
+    "lighthouse mrts",
+    "lighthouse station"
+   ],
+   "context": [
+    "marina"
+   ]
+  },
+  {
+   "id": "chennai_central",
+   "name": "Chennai Central Railway Station",
+   "type": "railway_station",
+   "lat": 13.0827,
+   "lon": 80.2755,
+   "area": null,
+   "aliases": [
+    "chennai central",
+    "central station",
+    "central railway station",
+    "madras central",
+    "சென்னை சென்ட்ரல்"
+   ],
+   "context": []
+  },
+  {
+   "id": "egmore_station",
+   "name": "Egmore Railway Station",
+   "type": "railway_station",
+   "lat": 13.0732,
+   "lon": 80.2609,
+   "area": "egmore",
+   "aliases": [
+    "egmore station",
+    "egmore railway station"
+   ],
+   "context": []
+  },
+  {
+   "id": "guindy_station",
+   "name": "Guindy Railway Station",
+   "type": "railway_station",
+   "lat": 13.0095,
+   "lon": 80.2212,
+   "area": "guindy",
+   "aliases": [
+    "guindy station",
+    "guindy railway station"
+   ],
+   "context": []
+  },
+  {
+   "id": "chennai_airport",
+   "name": "Chennai International Airport",
+   "type": "airport",
+   "lat": 12.9941,
+   "lon": 80.1709,
+   "area": "meenambakkam",
+   "aliases": [
+    "chennai airport",
+    "meenambakkam airport",
+    "madras airport"
+   ],
+   "context": []
+  },
+  {
+   "id": "koyambedu_cmbt",
+   "name": "Koyambedu Bus Terminus (CMBT)",
+   "type": "bus_terminus",
+   "lat": 13.0694,
+   "lon": 80.2045,
+   "area": "koyambedu",
+   "aliases": [
+    "cmbt",
+    "koyambedu bus terminus",
+    "koyambedu bus stand"
+   ],
+   "context": []
+  },
+  {
+   "id": "rggh",
+   "name": "Rajiv Gandhi Government General Hospital",
+   "type": "hospital",
+   "lat": 13.0805,
+   "lon": 80.275,
+   "area": null,
+   "aliases": [
+    "rajiv gandhi government general hospital",
+    "rggh",
+    "government general hospital",
+    "madras general hospital"
+   ],
+   "context": []
+  },
+  {
+   "id": "stanley_hospital",
+   "name": "Stanley Medical College Hospital",
+   "type": "hospital",
+   "lat": 13.1062,
+   "lon": 80.2877,
+   "area": "washermanpet",
+   "aliases": [
+    "stanley hospital",
+    "stanley medical college hospital",
+    "government stanley hospital"
+   ],
+   "context": []
+  },
+  {
+   "id": "royapettah_hospital",
+   "name": "Government Royapettah Hospital",
+   "type": "hospital",
+   "lat": 13.0545,
+   "lon": 80.2625,
+   "area": null,
+   "aliases": [
+    "royapettah hospital",
+    "government royapettah hospital"
+   ],
+   "context": []
+  },
+  {
+   "id": "kilpauk_mch",
+   "name": "Kilpauk Medical College Hospital",
+   "type": "hospital",
+   "lat": 13.0777,
+   "lon": 80.2418,
+   "area": "kilpauk",
+   "aliases": [
+    "kilpauk medical college hospital",
+    "kilpauk medical college",
+    "kilpauk hospital"
+   ],
+   "context": []
+  },
+  {
+   "id": "apollo_greams_road",
+   "name": "Apollo Hospital, Greams Road",
+   "type": "hospital",
+   "lat": 13.0618,
+   "lon": 80.2518,
+   "area": null,
+   "aliases": [
+    "apollo hospital greams road",
+    "apollo greams road",
+    "greams road hospital"
+   ],
+   "context": []
+  },
+  {
+   "id": "pallikaranai_marsh",
+   "name": "Pallikaranai Marsh",
+   "type": "lake",
+   "lat": 12.938,
+   "lon": 80.216,
+   "area": "pallikaranai",
+   "aliases": [
+    "pallikaranai marsh",
+    "pallikaranai marshland",
+    "pallikaranai lake"
+   ],
+   "context": []
+  },
+  {
+   "id": "chembarambakkam_lake",
+   "name": "Chembarambakkam Lake",
+   "type": "lake",
+   "lat": 13.013,
+   "lon": 80.06,
+   "area": null,
+   "aliases": [
+    "chembarambakkam lake",
+    "chembarambakkam",
+    "chembarambakkam eri"
+   ],
+   "context": []
+  },
+  {
+   "id": "puzhal_lake",
+   "name": "Puzhal Lake",
+   "type": "lake",
+   "lat": 13.16,
+   "lon": 80.185,
+   "area": null,
+   "aliases": [
+    "puzhal lake",
+    "puzhal",
+    "red hills lake"
+   ],
+   "context": []
+  },
+  {
+   "id": "iit_madras",
+   "name": "IIT Madras",
+   "type": "landmark",
+   "lat": 12.9915,
+   "lon": 80.2337,
+   "area": "guindy",
+   "aliases": [
+    "iit madras",
+    "iitm",
+    "iit chennai"
+   ],
+   "context": []
+  },
+  {
+   "id": "anna_university",
+   "name": "Anna University",
+   "type": "landmark",
+   "lat": 13.0108,
+   "lon": 80.2354,
+   "area": "guindy",
+   "aliases": [
+    "anna university"
+   ],
+   "context": []
+  },
+  {
+   "id": "marina_beach",
+   "name": "Marina Beach",
+   "type": "landmark",
+   "lat": 13.05,
+   "lon": 80.2824,
+   "area": null,
+   "aliases": [
+    "marina beach",
+    "marina"
+   ],
+   "context": []
+  },
+  {
+   "id": "elliots_beach",
+   "name": "Elliot's Beach",
+   "type": "landmark",
+   "lat": 13.0006,
+   "lon": 80.272,
+   "area": "besant_nagar",
+   "aliases": [
+    "elliots beach",
+    "elliot beach",
+    "besant nagar beach"
+   ],
+   "context": []
+  }
+ ]
+}

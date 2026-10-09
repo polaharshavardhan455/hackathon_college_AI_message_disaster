@@ -1,0 +1,312 @@
+{
+  "city": "Chennai, Tamil Nadu",
+  "stage": "stage_2",
+  "language_profile": [
+    "Telugu",
+    "Telugu-English",
+    "English",
+    "Hinglish"
+  ],
+  "messages": [
+    {
+      "message_id": "stage_2_wa_033",
+      "timestamp": "2026-10-07T08:39:44",
+      "sender": "resident_655",
+      "text": "Boat reached Medavakkam inner residential road. Elderly woman and children are being moved first."
+    },
+    {
+      "message_id": "stage_2_wa_022",
+      "timestamp": "2026-10-07T08:32:57",
+      "sender": "resident_262",
+      "text": "Fire near station electrical-side road is now fully controlled. 18 people were affected."
+    },
+    {
+      "message_id": "stage_2_wa_041",
+      "timestamp": "2026-10-07T08:44:40",
+      "sender": "user_651",
+      "text": "Someone claims 500mm rain has already fallen everywhere."
+    },
+    {
+      "message_id": "stage_2_wa_024",
+      "timestamp": "2026-10-07T08:34:11",
+      "sender": "resident_383",
+      "text": "Final update: transformer fire extinguished. No further fire tender dispatch required."
+    },
+    {
+      "message_id": "stage_2_wa_005",
+      "timestamp": "2026-10-07T08:22:28",
+      "sender": "resident_417",
+      "text": "Rescue completed at Velachery MRTS backside. No additional insulin dispatch required."
+    },
+    {
+      "message_id": "stage_2_wa_010",
+      "timestamp": "2026-10-07T08:25:33",
+      "sender": "resident_813",
+      "text": "Rescue completed at Velachery MRTS backside. No additional insulin dispatch required."
+    },
+    {
+      "message_id": "stage_2_wa_007",
+      "timestamp": "2026-10-07T08:23:42",
+      "sender": "resident_350",
+      "text": "Same Velachery MRTS incident. Rescue team arrived and insulin was delivered. Medical request can be marked resolved."
+    },
+    {
+      "message_id": "stage_2_wa_023",
+      "timestamp": "2026-10-07T08:33:34",
+      "sender": "resident_365",
+      "text": "Fire near road behind the railway station is now fully controlled. 18 people were affected."
+    },
+    {
+      "message_id": "stage_2_wa_036",
+      "timestamp": "2026-10-07T08:41:35",
+      "sender": "resident_489",
+      "text": "Rescue is in progress at the same location. Keep ticket ACTIVE until all 11 people are evacuated."
+    },
+    {
+      "message_id": "stage_2_wa_047",
+      "timestamp": "2026-10-07T08:48:22",
+      "sender": "user_129",
+      "text": "Power gone in my street again."
+    },
+    {
+      "message_id": "stage_2_wa_020",
+      "timestamp": "2026-10-07T08:31:43",
+      "sender": "resident_934",
+      "text": "Final update: transformer fire extinguished. No further fire tender dispatch required."
+    },
+    {
+      "message_id": "stage_2_wa_031",
+      "timestamp": "2026-10-07T08:38:30",
+      "sender": "resident_256",
+      "text": "Rescue is in progress at the same location. Keep ticket ACTIVE until all 11 people are evacuated."
+    },
+    {
+      "message_id": "stage_2_wa_027",
+      "timestamp": "2026-10-07T08:36:02",
+      "sender": "resident_392",
+      "text": "Rescue is in progress at the same location. Keep ticket ACTIVE until all 11 people are evacuated."
+    },
+    {
+      "message_id": "stage_2_wa_019",
+      "timestamp": "2026-10-07T08:31:06",
+      "sender": "resident_424",
+      "text": "Final update: transformer fire extinguished. No further fire tender dispatch required."
+    },
+    {
+      "message_id": "stage_2_wa_029",
+      "timestamp": "2026-10-07T08:37:16",
+      "sender": "resident_182",
+      "text": "Rescue is in progress at the same location. Keep ticket ACTIVE until all 11 people are evacuated."
+    },
+    {
+      "message_id": "stage_2_wa_008",
+      "timestamp": "2026-10-07T08:24:19",
+      "sender": "resident_970",
+      "text": "Rescue completed at Velachery MRTS backside. No additional insulin dispatch required."
+    },
+    {
+      "message_id": "stage_2_wa_043",
+      "timestamp": "2026-10-07T08:45:54",
+      "sender": "user_919",
+      "text": "What is today's weather warning?"
+    },
+    {
+      "message_id": "stage_2_wa_042",
+      "timestamp": "2026-10-07T08:45:17",
+      "sender": "user_852",
+      "text": "Need a traffic update for Velachery."
+    },
+    {
+      "message_id": "stage_2_wa_018",
+      "timestamp": "2026-10-07T08:30:29",
+      "sender": "resident_643",
+      "text": "Final update: transformer fire extinguished. No further fire tender dispatch required."
+    },
+    {
+      "message_id": "stage_2_wa_001",
+      "timestamp": "2026-10-07T08:20:00",
+      "sender": "resident_584",
+      "text": "Rescue completed at Velachery MRTS backside. No additional insulin dispatch required."
+    },
+    {
+      "message_id": "stage_2_wa_016",
+      "timestamp": "2026-10-07T08:29:15",
+      "sender": "resident_968",
+      "text": "Same Tambaram transformer incident. Fire service extinguished the flames. Electrical area isolated."
+    },
+    {
+      "message_id": "stage_2_wa_003",
+      "timestamp": "2026-10-07T08:21:14",
+      "sender": "resident_779",
+      "text": "Rescue completed at Velachery MRTS backside. No additional insulin dispatch required."
+    },
+    {
+      "message_id": "stage_2_wa_045",
+      "timestamp": "2026-10-07T08:47:08",
+      "sender": "user_324",
+      "text": "Forwarded warning with no official source."
+    },
+    {
+      "message_id": "stage_2_wa_032",
+      "timestamp": "2026-10-07T08:39:07",
+      "sender": "resident_524",
+      "text": "Same Medavakkam incident. Rescue boat reached the location. 11 people are being evacuated."
+    },
+    {
+      "message_id": "stage_2_wa_048",
+      "timestamp": "2026-10-07T08:48:59",
+      "sender": "user_444",
+      "text": "Need traffic update only."
+    },
+    {
+      "message_id": "stage_2_wa_039",
+      "timestamp": "2026-10-07T08:43:26",
+      "sender": "user_499",
+      "text": "How long will the rain continue?"
+    },
+    {
+      "message_id": "stage_2_wa_013",
+      "timestamp": "2026-10-07T08:27:24",
+      "sender": "resident_897",
+      "text": "Same Tambaram transformer incident. Fire service extinguished the flames. Electrical area isolated."
+    },
+    {
+      "message_id": "stage_2_wa_034",
+      "timestamp": "2026-10-07T08:40:21",
+      "sender": "resident_163",
+      "text": "Boat reached school compound backside. Elderly woman and children are being moved first."
+    },
+    {
+      "message_id": "stage_2_wa_044",
+      "timestamp": "2026-10-07T08:46:31",
+      "sender": "user_325",
+      "text": "When will internet service return?"
+    },
+    {
+      "message_id": "stage_2_wa_011",
+      "timestamp": "2026-10-07T08:26:10",
+      "sender": "resident_509",
+      "text": "Update from station backside road: all 6 people are being moved to safety. Diabetic patient received insulin."
+    },
+    {
+      "message_id": "stage_2_wa_015",
+      "timestamp": "2026-10-07T08:28:38",
+      "sender": "resident_151",
+      "text": "Fire near station electrical-side road is now fully controlled. 18 people were affected."
+    },
+    {
+      "message_id": "stage_2_wa_014",
+      "timestamp": "2026-10-07T08:28:01",
+      "sender": "resident_280",
+      "text": "Same Tambaram transformer incident. Fire service extinguished the flames. Electrical area isolated."
+    },
+    {
+      "message_id": "stage_2_wa_021",
+      "timestamp": "2026-10-07T08:32:20",
+      "sender": "resident_950",
+      "text": "Fire near station electrical-side road is now fully controlled. 18 people were affected."
+    },
+    {
+      "message_id": "stage_2_wa_025",
+      "timestamp": "2026-10-07T08:34:48",
+      "sender": "resident_741",
+      "text": "Boat reached second street near the school. Elderly woman and children are being moved first."
+    },
+    {
+      "message_id": "stage_2_wa_017",
+      "timestamp": "2026-10-07T08:29:52",
+      "sender": "resident_236",
+      "text": "Fire near behind Sanatorium railway station is now fully controlled. 18 people were affected."
+    },
+    {
+      "message_id": "stage_2_wa_004",
+      "timestamp": "2026-10-07T08:21:51",
+      "sender": "resident_938",
+      "text": "Same Velachery MRTS incident. Rescue team arrived and insulin was delivered. Medical request can be marked resolved."
+    },
+    {
+      "message_id": "stage_2_wa_012",
+      "timestamp": "2026-10-07T08:26:47",
+      "sender": "resident_771",
+      "text": "Same Velachery MRTS incident. Rescue team arrived and insulin was delivered. Medical request can be marked resolved."
+    },
+    {
+      "message_id": "stage_2_wa_050",
+      "timestamp": "2026-10-07T08:50:13",
+      "sender": "user_960",
+      "text": "Can somebody share the rainfall forecast?"
+    },
+    {
+      "message_id": "stage_2_wa_049",
+      "timestamp": "2026-10-07T08:49:36",
+      "sender": "user_841",
+      "text": "Someone claims 500mm rain has already fallen everywhere."
+    },
+    {
+      "message_id": "stage_2_wa_028",
+      "timestamp": "2026-10-07T08:36:39",
+      "sender": "resident_443",
+      "text": "Boat reached second lane behind school. Elderly woman and children are being moved first."
+    },
+    {
+      "message_id": "stage_2_wa_006",
+      "timestamp": "2026-10-07T08:23:05",
+      "sender": "resident_250",
+      "text": "Same Velachery MRTS incident. Rescue team arrived and insulin was delivered. Medical request can be marked resolved."
+    },
+    {
+      "message_id": "stage_2_wa_046",
+      "timestamp": "2026-10-07T08:47:45",
+      "sender": "user_546",
+      "text": "When will schools reopen?"
+    },
+    {
+      "message_id": "stage_2_wa_037",
+      "timestamp": "2026-10-07T08:42:12",
+      "sender": "user_106",
+      "text": "Forwarded warning with no official source."
+    },
+    {
+      "message_id": "stage_2_wa_038",
+      "timestamp": "2026-10-07T08:42:49",
+      "sender": "user_405",
+      "text": "Anybody travelling toward Tambaram?"
+    },
+    {
+      "message_id": "stage_2_wa_026",
+      "timestamp": "2026-10-07T08:35:25",
+      "sender": "resident_550",
+      "text": "Boat reached second lane behind school. Elderly woman and children are being moved first."
+    },
+    {
+      "message_id": "stage_2_wa_002",
+      "timestamp": "2026-10-07T08:20:37",
+      "sender": "resident_186",
+      "text": "Rescue completed at Velachery MRTS backside. No additional insulin dispatch required."
+    },
+    {
+      "message_id": "stage_2_wa_035",
+      "timestamp": "2026-10-07T08:40:58",
+      "sender": "resident_498",
+      "text": "Boat reached second lane behind school. Elderly woman and children are being moved first."
+    },
+    {
+      "message_id": "stage_2_wa_040",
+      "timestamp": "2026-10-07T08:44:03",
+      "sender": "user_955",
+      "text": "Can someone confirm train timing?"
+    },
+    {
+      "message_id": "stage_2_wa_009",
+      "timestamp": "2026-10-07T08:24:56",
+      "sender": "resident_524",
+      "text": "Update from behind Velachery MRTS: all 6 people are being moved to safety. Diabetic patient received insulin."
+    },
+    {
+      "message_id": "stage_2_wa_030",
+      "timestamp": "2026-10-07T08:37:53",
+      "sender": "resident_336",
+      "text": "Same Medavakkam incident. Rescue boat reached the location. 11 people are being evacuated."
+    }
+  ]
+}
